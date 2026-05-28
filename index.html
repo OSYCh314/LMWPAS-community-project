@@ -40,8 +40,13 @@
         </div>
       </div>
     </div>
+    <div id="footer"></div>
   </body>
   <script>
+    async function load(id, file) {
+        const res = await fetch(file);
+        document.getElementById(id).innerHTML = await res.text();
+    }
     load("footer","./footer.html");
   </script>
 </html>
