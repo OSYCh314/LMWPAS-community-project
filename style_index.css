@@ -18,6 +18,7 @@ p {
   justify-content: space-between;
   gap: 10px;
   padding: 10px;
+  align-items: flex-start;
 }
 
 .container_mid {
@@ -27,6 +28,7 @@ p {
   flex: 1;
   gap: 10px;
   padding: 10px;
+  align-items: flex-start;
 }
 
 .content {
@@ -36,6 +38,7 @@ p {
   border: 10px;
   border-color: #999999;
   border-radius: 10px;
+  height: auto;
 }
 
 .content img {
