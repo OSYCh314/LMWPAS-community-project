@@ -82,7 +82,7 @@ header {
   padding: 30px 20px;
   text-align: left;
   position: fixed;
-  bottom: 5px;
+  top: -5px;
   width: 100%;
 }
 
