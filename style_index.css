@@ -39,6 +39,7 @@ p {
   border-color: #999999;
   border-radius: 10px;
   height: auto;
+  width: 100%;
 }
 
 .content img {
