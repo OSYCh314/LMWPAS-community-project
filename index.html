@@ -5,8 +5,7 @@
     <link rel="stylesheet" href="./style_index.css">
   </head>
   <body>
-    <h1>Liam, Will and Aditveer's Community Project Website</h1>
-    <br>
+    <h1>Home</h1>
     <div class="container_out">
       <div class="container_mid">
         <div class="content">
@@ -48,6 +47,7 @@
         const res = await fetch(file);
         document.getElementById(id).innerHTML = await res.text();
     }
+    load("header","./header.html");
     load("footer","./footer.html");
   </script>
 </html>
