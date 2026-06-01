@@ -78,7 +78,7 @@ footer {
 }
 
 header {
-  background: #f5f5f5;
+  background: rgba(220 220 220 0.5);
   padding: 30px 20px;
   text-align: left;
   position: fixed;
